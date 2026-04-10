@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['person', 'vehicle', 'weapon']
+
+roboflow:
+  workspace: surveillance-system
+  project: security-dmovn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/surveillance-system/security-dmovn/dataset/1
